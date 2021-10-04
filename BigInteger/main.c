@@ -2,13 +2,12 @@
 //  main.c
 //  BigInteger
 //
-//  Created by Антон Чемодуров on 04.10.2021.
+//  Created by Антон Чемодуров on 02.10.2021.
 //
 
 #include <stdio.h>
+#include "uint1024_t.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+    printf("%lu\n", sizeof(int *));
 }
